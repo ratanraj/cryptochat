@@ -1,0 +1,65 @@
+# Generated .gitignore file
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# History of executed commands in GoLand
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.s
+
+# Folders to ignore
+bin/
+pkg/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Log files
+*.log
+
+# Node-Modules
+node_modules/
+
+# Golang CI lint tool
+.golangci.yml
+.golangci.toml
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
