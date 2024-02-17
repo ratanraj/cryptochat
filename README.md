@@ -1,1 +1,1 @@
-# Crypt Chat
+# Crypto Chat
